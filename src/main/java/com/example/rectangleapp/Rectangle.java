@@ -23,4 +23,18 @@ public class Rectangle {
 
     private int height;
     private int width;
+
+    public Rectangle(int height, int width) {
+        this.width=width;
+        this.height=height;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "id=" + id +
+                ", height=" + height +
+                ", width=" + width +
+                '}';
+    }
 }

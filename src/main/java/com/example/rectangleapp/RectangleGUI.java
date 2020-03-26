@@ -7,7 +7,7 @@ import com.vaadin.flow.router.Route;
 
 
 @Route
-public class RectangleUI extends VerticalLayout {
+public class RectangleGUI extends VerticalLayout {
 
     private RectangleRepository rectangleRepository;
 
@@ -16,7 +16,7 @@ public class RectangleUI extends VerticalLayout {
     private Button button;
 
 
-    public RectangleUI(RectangleRepository rectangleRepository) {
+    public RectangleGUI(RectangleRepository rectangleRepository) {
 
         this.rectangleRepository = rectangleRepository;
 
